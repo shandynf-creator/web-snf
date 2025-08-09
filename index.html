@@ -1,61 +1,117 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portofolio Konten Kreator</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shandy NF - Content Creator Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="scroll-indicator"></div>
+    
+    <header>
+        <div class="hero-content">
+            <div class="profile-image">
+                <i class="fas fa-video"></i>
+            </div>
+            <h1>Shandy NF</h1>
+            <p class="tagline">Creative Content Creator • Multi-Platform Influencer</p>
+            <p style="color: var(--text-muted); font-size: 1.1rem; max-width: 600px; margin: 0 auto;">
+                Bringing creativity to life across Instagram, TikTok, Facebook & YouTube with engaging content that inspires and entertains.
+            </p>
+        </div>
+    </header>
 
-  <header>
-    <h1>Shandy NF</h1>
-    <p>Kreator Konten di Instagram, TikTok, Facebook & YouTube s</p>
-  </header>
-
-  <div class="social-links">
-    <div style="display: flex; gap: 20px; align-items: center;"></div>
-  <a href="https://www.instagram.com/shandy_nf16/" target="_blank">
-    <img src="image/instagram.png" alt="Instagram" width="50">
-  </a>
-  <a href="https://www.tiktok.com/@shandynurulfajar" target="_blank">
-    <img src="image/tiktok.png" alt="TikTok" width="50">
-  </a>
-  <a href="https://www.facebook.com/shandynurulfajar.snf/" target="_blank">
-    <img src="image/facebook.png" alt="Facebook" width="50">
-  </a>
-  <a href="https://www.youtube.com/@shandyNF" target="_blank">
-    <img src="image/youtube.png" alt="YouTube" width="50">
-  </a>
-</div>
-
-  </section>
-
-  <section class="portfolio">
-    <h2>Konten Saya</h2>
-    <div class="gallery">
-      <div class="item">
-        <iframe width="300" height="200" src="https://www.youtube.com/embed/m5UXYjJJ_L0" frameborder="0" allowfullscreen></iframe>
-        <p>lagu Broken Wings #1</p>
-      </div>
-   <div style="display: flex; gap: 20px; align-items: center;">
-  <a href="https://www.tiktok.com/@shandynurulfajar/video/7289668574778526982?is_from_webapp=1&sender_device=pc&web_id=7532726404128867848" target="_blank">
-    <img src="image/tiktok.png" alt="TikTok Video" width="75">
-  </a>
-        <a href="https://www.instagram.com/p/DMb0FGzT9cJbook17J3HBquvyFzISXT47L7rhc0/?igsh=bzd5em82d3VrNmF0" target="_blank">
-    <img src="image/instagram.png" alt="Instagram Post" width="75">
-  </a>
-  <a href="https://web.facebook.com/reel/608575065364237/?s=single_unit" target="_blank">
-    <img src="image/facebook.png" alt="Facebook Reel" width="75">
-  </a>
-      </div>
+    <div class="social-links">
+        <a href="https://www.instagram.com/shandy_nf16/" target="_blank" class="social-link instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.tiktok.com/@shandynurulfajar" target="_blank" class="social-link tiktok">
+            <i class="fab fa-tiktok"></i>
+        </a>
+        <a href="https://www.facebook.com/shandynurulfajar.snf/" target="_blank" class="social-link facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.youtube.com/@shandyNF" target="_blank" class="social-link youtube">
+            <i class="fab fa-youtube"></i>
+        </a>
     </div>
-  </section>
 
-  <footer>
-    <p>&copy; 2025 Shandy NF. All rights reserved.</p>
-  </footer>
+    <section class="portfolio">
+        <h2 class="section-title">My Content Portfolio</h2>
+        <div class="gallery">
+            <div class="portfolio-item">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/m5UXYjJJ_L0" allowfullscreen></iframe>
+                </div>
+                <h3 class="item-title">Broken Wings #1 - Music Content</h3>
+                <p style="color: var(--text-muted); margin-bottom: 1.5rem; text-align: center;">
+                    Original music content featuring emotional storytelling through melody and visuals.
+                </p>
+                <div class="platform-links">
+                    <a href="https://www.tiktok.com/@shandynurulfajar/video/7289668574778526982" target="_blank" class="platform-link tiktok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.instagram.com/p/DMb0FGzT9cJbook17J3HBquvyFzISXT47L7rhc0/?igsh=bzd5em82d3VrNmF0" target="_blank" class="platform-link instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://web.facebook.com/reel/608575065364237/?s=single_unit" target="_blank" class="platform-link facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Additional portfolio items can be added here -->
+            <div class="portfolio-item">
+                <div class="video-container" style="background: var(--primary-gradient); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+                    <i class="fas fa-plus"></i>
+                </div>
+                <h3 class="item-title">More Content Coming Soon</h3>
+                <p style="color: var(--text-muted); margin-bottom: 1.5rem; text-align: center;">
+                    Stay tuned for more amazing content across all platforms!
+                </p>
+                <div class="platform-links">
+                    <a href="https://www.youtube.com/@shandyNF" target="_blank" class="platform-link youtube" style="color: #FF0000;">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <footer>
+        <p class="footer-text">&copy; 2025 Shandy NF. All rights reserved. | Crafted with creativity and passion</p>
+    </footer>
+
+    <script>
+        // Scroll progress indicator
+        window.addEventListener('scroll', () => {
+            const scrolled = (window.pageYOffset / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+            document.querySelector('.scroll-indicator').style.transform = `scaleX(${scrolled / 100})`;
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add loading animations
+        window.addEventListener('load', () => {
+            document.body.style.opacity = '1';
+        });
+
+        // Parallax effect for background
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const rate = scrolled * -0.5;
+            document.body.style.transform = `translateY(${rate}px)`;
+        });
+    </script>
 </body>
 </html>
-
